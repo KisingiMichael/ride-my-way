@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <title>Ride Offers</title>
+</head>
+
+<body>
+  <div class="wrapper dashboard--bg--grey">
+    <header class="dashboard__header bg--color--white">
+      <div class="header__nav">
+        <nav class="navbar  container-fluid" role="navigation">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar__header dashboard__navbar__header">
+            <span class="js__navbar__toggler DashboardColor--primary" style="font-size:30px;cursor:pointer">&#9776; </span>
+            <a href="index.html" class="navbar__brand">
+              <div class="dashboard--logo--wrapper bg--color--primary">
+                <img src="assets/img/logo.png" alt="Ride my way logo">
+              </div>
+            </a>
+          </div>
+
+          <!--nav links for toggling -->
+          <div class="collapse navbar__collapse dashboard__collapse">
+            <a href="javascript:void(0)" class="closebtn js__navbar__toggler">&times;</a>
+            <ul class="nav navbar__right navbar__nav">
+              <li>
+                <a href="#">
+                  <span class="text--color--grey">Hello,</span>
+                  <span class="text--primary">Mike</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="notification">
+                  <span class="notify notify--dot--small"></span>
+                  <i class="fas fa-bell text--primary"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="dashboard__header__bottom bg--color--primary">
+          <div class="container-fluid">
+            <ul class="nav navbar__right navbar__nav">
+              <li>
+                <a href="summary.html">
+                  Summary
+                  <hr class="active--indicator">
+                </a>
+              </li>
+              <li>
+                <a href="rideoffers.html" class="notification active">
+                  Ride Offers
+                  <hr class="active--indicator">
+                </a>
+              </li>
+              <li>
+                <a href="riderequest.html">
+                  Ride Requests
+                  <hr class="active--indicator">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container-fluid">
+      <div class="subheader">
+        <h3 class="DashboardColor--text--grey">Dashboard</h3>
+        <ul class="nav navbar__nav">
+          <li>
+            <a href="#">
+              <i class="fas fa-home"></i>
+            </a>
+          </li>
+          <li>-</li>
+          <li>
+            <a href="#">Ride Offers</a>
+          </li>
+        </ul>
+      </div>
+      <div class="dashboard__content">
+
+        <div class="metric light--shadow">
+          <div class="divider--half">
+            <div class="row">
+              <div class="divider--three">
+                <div class="card__user">
+                  <img src="assets/img/PIC.png" class="card__user__pics" alt="User character">
+                </div>
+              </div>
+              <div class="divider--three vertical--center">
+                <div class="card__user__widget">
+                  <h3 class="DashboardColor--text--grey">Hi Michael!</h3>
+                  <button class="DashboardBtn btn--round DashboardColor--bg--primary">view your rides</button>
+                </div>
+              </div>
+              <div class="divider--three vertical--center">
+                <div class="CreateRide">
+                  <a href="#">
+                    <i class="fab fa-slideshare fa-3x DashboardColor--text--primary"></i>
+                    <h4 class="DashboardColor--text--grey margin-left--10">Offer A Ride</h4>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="divider--half">
+            <div class="row">
+              <div class="divider--three vertical--center">
+                <div class="CreateRide">
+                  <a href="#">
+                    <i class="fa-3x DashboardColor--text--primary">2</i>
+                    <h4 class="DashboardColor--text--grey">Rides received</h4>
+                  </a>
+                </div>
+              </div>
+              <div class="divider--three vertical--center">
+                <div class="CreateRide">
+                  <a href="#">
+                    <i class="fa-3x DashboardColor--text--primary">4</i>
+                    <h4 class="DashboardColor--text--grey">Rides offered</h4>
+                  </a>
+                </div>
+              </div>
+              <div class="divider--three vertical--center">
+                <div class="CreateRide">
+                  <a href="#">
+                    <i class="fas fa-history fa-3x DashboardColor--text--primary"></i>
+                    <h4 class="DashboardColor--text--grey margin-left--10">Ride History</h4>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="RideInfo">
+          <div class="RideOffers light--shadow">
+            <div class="RideOffers__title text--center">
+              <h3 class="DashboardColor--text--grey">Ride Requests</h3>
+            </div>
+            <div class="RideOffers__content">
+              <div class="RideOffers__item">
+                <div class="rider__img">
+                  <img src="assets/img/PIC.png" alt="Rider's image">
+                </div>
+                <div class="riders__content">
+                  <div class="riders__subheader">
+                    <h5>
+                      <a href="riderequest.html"> Senso wants to ride with you</a>
+                    </h5>
+                    <h6>
+                      <strong>
+                        <em>Destination: </em>
+                      </strong>
+                      <span class="DashboardColor--text--grey">Bagamoyo 8kms via Bagamoyo Road</span>
+                    </h6>
+
+                  </div>
+                </div>
+              </div>
+              <div class="RideOffers__item">
+                <div class="rider__img">
+                  <img src="assets/img/senso.jpeg" alt="Rider's image">
+                </div>
+                <div class="riders__content">
+                  <div class="riders__subheader">
+                    <h5>
+                      <a href="riderequest.html"> Wayoga wants a ride with you</a>
+                    </h5>
+                    <h6>
+                      <strong>
+                        <em>Destination: </em>
+                      </strong>
+                      <span class="DashboardColor--text--grey">Mbezi 4kms via Goba Road</span>
+                    </h6>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="RideOffers__item">
+                  <div class="rider__img">
+                    <img src="assets/img/wema.jpg" alt="Rider's image">
+                  </div>
+                  <div class="riders__content">
+                    <div class="riders__subheader">
+                      <h5>
+                        <a href="riderequest.html"> Sepenga wants a ride with you</a>
+                      </h5>
+                      <h6>
+                        <strong>
+                          <em>Destination: </em>
+                        </strong>
+                        <span class="DashboardColor--text--grey">Avic Town 10kms via Mkapa Bridge</span>
+                      </h6>
+  
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+          <div class="RideHistory light--shadow">
+            <div class="RideHistory__title text--center">
+              <h3 class="DashboardColor--text--grey">Ride Offers</h3>
+            </div>
+            <div class="RideHistory__content">
+              <div class="row ">
+                <div class="Ride__date">
+                  <h6 class="DashboardColor--text--grey">March</h6>
+                  <p class="DashboardColor--text--grey">17</p>
+                </div>
+                <div class="Rider__name">
+                  <h6>
+                    <a href="#">Godwin Wilson</a>
+                  </h6>
+                  <p class="DashboardColor--text--grey">
+                    <em>
+                      <strong>Offered:</strong>
+                    </em> heading Yombo Vituka </p>
+                </div>
+                <div class="ride__destination">
+                  <h6 class="DashboardColor--text--grey">
+                    <em>From: </em>Kibamba
+                    <br>
+                    <em>To: </em>Yombo
+                  </h6>
+                </div>
+              </div>
+              <div class="row ">
+                <div class="Ride__date">
+                  <h6 class="DashboardColor--text--grey">May</h6>
+                  <p class="DashboardColor--text--grey">2</p>
+                </div>
+                <div class="Rider__name">
+                  <h6>
+                    <a href="#">Mary Mwijarubi</a>
+                  </h6>
+                  <p class="DashboardColor--text--grey">
+                    <em>
+                      <strong>Offered:</strong>
+                    </em> Going to Kariakoo</p>
+                </div>
+                <div class="ride__destination">
+                  <h6 class="DashboardColor--text--grey">
+                    <em>From: </em>Mbezi Inn
+                    <br>
+                    <em>To: </em>Kariakoo
+                  </h6>
+                </div>
+              </div>
+              <div class="row ">
+                <div class="Ride__date">
+                  <h6 class="DashboardColor--text--grey">June</h6>
+                  <p class="DashboardColor--text--grey">10</p>
+                </div>
+                <div class="Rider__name">
+                  <h6>
+                    <a href="#">Jonhy Mbunda</a>
+                  </h6>
+                  <p class="DashboardColor--text--grey">
+                    <em>
+                      <strong>Offered:</strong>
+                    </em> Going to Dodoma</p>
+                </div>
+                <div class="ride__destination">
+                  <h6 class="DashboardColor--text--grey">
+                    <em>From: </em>Dar es Salaam
+                    <br>
+                    <em>To: </em>Dodoma
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/main.js"></script>
+  <script>
+    window.onload = () => {
+      app.loadSideBar();
+    }
+  </script>
+</body>
+
+</html>

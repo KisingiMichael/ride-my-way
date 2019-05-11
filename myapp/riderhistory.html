@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <title>Ride Offers</title>
+</head>
+
+<body>
+  <div class="wrapper dashboard--bg--grey">
+    <header class="dashboard__header bg--color--white">
+      <div class="header__nav">
+        <nav class="navbar  container-fluid" role="navigation">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar__header dashboard__navbar__header">
+            <span class="js__navbar__toggler DashboardColor--primary" style="font-size:30px;cursor:pointer">&#9776; </span>
+            <a href="/" class="navbar__brand">
+              <div class="dashboard--logo--wrapper bg--color--primary">
+                <img src="assets/img/logo.png" alt="Ride my way logo">
+              </div>
+            </a>
+          </div>
+
+          <!--nav links for toggling -->
+          <div class="collapse navbar__collapse dashboard__collapse">
+            <a href="javascript:void(0)" class="closebtn js__navbar__toggler">&times;</a>
+            <ul class="nav navbar__right navbar__nav">
+              <li>
+                <a href="#">
+                  <span class="text--color--grey">Hello,</span>
+                  <span class="text--primary">Mike</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="notification">
+                  <span class="notify notify--dot--small"></span>
+                  <i class="fas fa-bell text--primary"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="dashboard__header__bottom bg--color--primary">
+          <div class="container-fluid">
+            <ul class="nav navbar__right navbar__nav">
+              <li>
+                <a href="summary.html" class="">
+                  Summary
+                  <hr class="active--indicator">
+                </a>
+              </li>
+              <li>
+                <a href="rideoffers.html" class="notification">
+                  Ride Offers
+                  <hr class="active--indicator">
+                </a>
+              </li>
+              <li>
+                <a href="riderequest.html">
+                  Ride Requests
+                  <hr class="active--indicator">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container-fluid">
+      <div class="dashboard__content">
+        <div class="RideHistory light--shadow">
+          <div class="RideHistory__title text--center">
+            <h3 class="DashboardColor--text--grey">Ride History</h3>
+          </div>
+          <!-- riders history -->
+          <div class="RideHistory__content">
+            <div class="row ">
+              <div class="Ride__date">
+                <!-- <h5>Nov</h5> -->
+                <h6 class="DashboardColor--text--grey">March</h6>
+                <p class="DashboardColor--text--grey">20</p>
+              </div>
+              <div class="Rider__name">
+                <h6>
+                  <a href="#">Wema</a>
+                </h6>
+                <p class="DashboardColor--text--grey">
+                  <em>
+                    <strong>Offered:</strong>
+                  </em> heading to Avic Town Kigamboni</p>
+              </div>
+              <div class="ride__destination">
+                <h6 class="DashboardColor--text--grey">
+                  <em>From: </em>Mbezi
+                  <br>
+                  <em>To: </em>Kigamboni
+                </h6>
+              </div>
+            </div>
+            <div class="row ">
+              <div class="Ride__date">
+                <!-- <h5>Nov</h5> -->
+                <h6 class="DashboardColor--text--grey">Nov</h6>
+                <p class="DashboardColor--text--grey">17</p>
+              </div>
+              <div class="Rider__name">
+                <h6>
+                  <a href="#">Mike</a>
+                </h6>
+                <p class="DashboardColor--text--grey">
+                  <em>
+                    <strong>Offered:</strong>
+                  </em> heading to Maili Moja </p>
+              </div>
+              <div class="ride__destination">
+                <h6 class="DashboardColor--text--grey">
+                  <em>From: </em>Kibamba
+                  <br>
+                  <em>To: </em>Maili Moja
+                </h6>
+              </div>
+            </div>
+            <div class="row ">
+              <div class="Ride__date">
+                
+                <h6 class="DashboardColor--text--grey">June</h6>
+                <p class="DashboardColor--text--grey">01</p>
+              </div>
+              <div class="Rider__name">
+                <h6>
+                  <a href="#">Pendo</a>
+                </h6>
+                <p class="DashboardColor--text--grey">
+                  <em>
+                    <strong>Offered:</strong>
+                  </em> Heading to Ngorongoro 300kms</p>
+              </div>
+              <div class="ride__destination">
+                <h6 class="DashboardColor--text--grey">
+                  <em>From: </em>Dar es Salaam
+                  <br>
+                  <em>To: </em>Ngorongoro
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/main.js"></script>
+  <script>
+    window.onload = () => {
+      app.loadSideBar();
+    }
+  </script>
+</body>
+
+</html>

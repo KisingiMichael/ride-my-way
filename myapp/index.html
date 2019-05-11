@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <title>Ride My Way</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header__main">
+      <div class="header__nav">
+        <nav class="navbar " role="navigation">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar__header">
+            <span class="js__navbar__toggler" style="font-size:30px;cursor:pointer">&#9776; </span>
+            <a href="index.html" class="navbar__brand">
+              <img src="assets/img/logo.png" alt="Ride my way logo" srcset="">
+            </a>
+          </div>
+
+          <!-- nav links for toggling -->
+          <div class="collapse navbar__collapse">
+            <a href="javascript:void(0)" class="closebtn js__navbar__toggler">&times;</a>
+            <ul class="nav navbar__right navbar__nav">
+              <li>
+                <a href="index.html#howitworks">How to Ride</a>
+              </li>
+              <li>
+                <a href="index.html#benefits">Why Ride My Way</a>
+              </li>
+              <li>
+                <a href="about.html">About</a>
+              </li>
+              <li>
+                  <a href="index.html#contactus">Contact Us</a>
+              </li>
+              <li>
+                <a href="signin.html">Login</a>
+              </li>
+              <li>
+                <a class="btn btn--secondary btn--round" href="createaccount.html">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="margin--top--100">
+            <div class="header">
+              <div class="header__title typed m--center">
+                Get A Ride
+              </div>
+              <div class="header__content">
+                Your Happiness is in Your Hands
+              </div>
+              <div class="header__action">
+                <a class="btn btn--secondary btn--round" href="signin.html">
+                  Start a Ride
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <!-- how to ride -->
+    <section id="howitworks" class="how-it-works">
+      <div class="container-fluid">
+        <h1 class="how__title text--primary text--center">
+          How to Ride
+        </h1>
+        <p class="how__headline">In just four  steps to start riding</p>
+        <div class="how__content">
+          <div class="card">
+            <div class="card__header">
+              <img src="assets/img/account.png" alt="Account">
+            </div>
+            <div class="card__content">
+              <div class="card--content__title text--primary">
+                Create an Account
+              </div>
+              <div class="card--content__body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, maxime!
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+              <div class="card__header">
+                <img src="assets/img/user.png" alt="Account">
+              </div>
+              <div class="card__content">
+                <div class="card--content__title text--primary">
+                  Sign In to Your Account
+                </div>
+                <div class="card--content__body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, maxime!
+                </div>
+              </div>
+            </div>
+          
+          <div class="card">
+            <div class="card__header">
+              <img src="assets/img/doc.png" alt="Account">
+            </div>
+            <div class="card__content">
+              <div class="card--content__title text--primary">
+                Request for rides
+              </div>
+              <div class="card--content__body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quia!
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__header">
+              <img src="assets/img/route.png" alt="Account">
+            </div>
+            <div class="card__content">
+              <div class="card--content__title text--primary">
+                Offer rides
+              </div>
+              <div class="card--content__body">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, qui!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- why Ride My Way -->
+    <section class="benefits" id="benefits">
+      <h1 class="benefits__title text--center text--primary margin--0">
+        Why Ride My Way?
+      </h1>
+      <div class="benefits__content">
+        <div class="row container-fluid">
+          <div class="divider--half">
+            <div class="thumbnail">
+              <img class="thumbnail--img" src="assets/img/info.png" alt="">
+              <div class="caption text--center margin--0">
+                <h3 class="caption__title text--secondary">Anywhere, anytime</h3>
+                <p class="caption__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="divider--half">
+            <div class="thumbnail">
+              <img class="thumbnail--img" src="assets/img/info.png" alt="">
+              <div class="caption text--center margin--0">
+                <h3 class="caption__title text--secondary">Low-cost to luxury </h3>
+                <p class="caption__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact gradient" id="contactus">
+      <div class="container">
+        <div class="contact__headline text--color--white">Want a catch up?</div>
+        <div class="contact__title text--color--white">Contact Us</div>
+        <div class="contact__form">
+          <form action="#" method="POST" role="form">
+            <!-- group inputs -->
+            <div class="input--group">
+              <input type="text" class="form-control form--control" placeholder="Your name">
+              <input type="text" class="form-control form--control" placeholder="Email address">
+              <input type="text" class="form-control form--control" placeholder="phone">
+            </div>
+
+            <!-- textarea -->
+            <div class="text__area p--0">
+              <textarea name="" id="input${1/(\w+)/\u\1/g}" class="form-control" rows="3" required="required" placeholder="Your message"></textarea>
+            </div>
+
+            <!-- submit button -->
+            <div class="contact__submit">
+              <button type="submit" class="btn btn--block bg--color--grey text--color--white">
+                <span>Send</span>
+              </button>
+
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+      <footer>
+        <h5 class="text--center text--color--white">&copy; ALCWithForLoop</h5>
+        <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+      </footer>
+  </div>
+  <script src="assets/js/main.js"></script>
+  <script>
+    window.onload = () => {
+      app.loadSideBar();
+    }
+  </script>
+</body>
+</html>
