@@ -1,0 +1,931 @@
+
+@font-face {
+  font-family: BryantBoldAlt;
+  src: url("../fonts/BryantBoldAlt.ttf");
+}
+
+/* BRYANT LIGHT */
+
+@font-face {
+  font-family: BryantLight;
+  src: url("../fonts/BryantLight.ttf");
+}
+
+/* BRYANT LIGHT ALT */
+
+@font-face {
+  font-family: BryantLightAlt;
+  src: url("../fonts/BryantLightAlt.ttf");
+}
+
+/* BRYANT MEDIUM  */
+
+@font-face {
+  font-family: BryantMedium;
+  src: url("../fonts/BryantMedium.ttf");
+}
+
+/* BRYANT MEDIUM ALT */
+
+@font-face {
+  font-family: BryantMediumAlt;
+  src: url("../fonts/BryantMediumAlt.ttf");
+}
+
+/* BRYANT REGULAR */
+
+@font-face {
+  font-family: BryantRegular;
+  src: url("../fonts/BryantRegular.ttf");
+}
+
+/* BRYANT REGULAR ALT */
+
+@font-face {
+  font-family: BryantRegularAlt;
+  src: url("../fonts/BryantRegularAlt.ttf");
+}
+
+/* 
+ ---------------------------------------------------
+ */
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: BryantBoldAlt;
+  outline: none;
+}
+
+body {
+  /* font-size: 62.5%; */
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: red;
+}
+
+/* buttons */
+
+.btn {
+  padding: 10px 16px !important;
+  -webkit-box-shadow: 0px 2px 35px 8px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 2px 35px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 35px 8px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+.DashboardBtn {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--round {
+  border-radius: 50px;
+}
+
+.btn--secondary {
+  background: #9b9b9b;
+  color: #ffffff;
+}
+
+.btn--50px {
+  height: 50px;
+  font-size: 1.8rem;
+}
+
+.btn--block {
+  display: block;
+  width: 100%;
+}
+
+/* fonts */
+
+.font--normal {
+  font-family: BryantBoldAlt;
+}
+
+.font--medium {
+  font-family: BryantMedium;
+}
+
+.font--regular {
+  font-family: BryantRegular;
+}
+
+/*  COLORS */
+
+.text--primary {
+  color: #149b6e;
+}
+
+.text--secondary {
+  color: #357dc5;
+}
+
+.text--color--grey {
+  color: #828282;
+}
+
+.text--color--white {
+  color: #ffffff;
+}
+
+.bg--color--primary {
+  background-color: #2c6c9e;
+  color: #ffffff;
+}
+
+.bg--color--grey {
+  background-color: #845f52;
+  color: #ffffff;
+}
+
+.bg--color--white {
+  background-color: #ffffff;
+}
+
+.light--shadow {
+  -webkit-box-shadow: 0 1px 15px 1px rgba(113, 106, 202, 0.08);
+  -moz-box-shadow: 0 1px 15px 1px rgba(113, 106, 202, 0.08);
+  box-shadow: 0 1px 15px 1px rgba(113, 106, 202, 0.08);
+}
+
+.gradient {
+  background-image: linear-gradient(to bottom, #16272b 0%, #357dc5 100%);
+}
+
+/*  */
+
+.vertical--center {
+  display: inherit;
+  align-items: center;
+}
+
+.bd--right--1 {
+  border-right: 1px solid #ebedf2;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.text--right {
+  text-align: right;
+}
+
+.margin--10 {
+  margin: 10px 0;
+}
+
+.margin--top--100 {
+  margin-top: 100px;
+}
+
+.margin--top--10 {
+  margin-top: 10px;
+}
+
+.p--0 {
+  padding: 0;
+}
+
+/* scrollbar  */
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.CreateAccount.padding--bottom--210 {
+  padding-bottom: 209px;
+}
+
+.divider--half {
+  width: 50%;
+}
+
+.divider--three {
+  width: calc(100% / 3);
+}
+
+.navbar {
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 0;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.navbar-header,
+.navbar .navbar__nav>li {
+  font-family: BryantBoldAlt;
+  padding: 35px 20px;
+}
+
+/* .navbar-header, */
+
+.navbar__nav {
+  display: flex;
+  list-style: none;
+}
+
+nav .navbar__nav>li>a {
+  padding: 0;
+  font-size: 18px;
+  color: #f2f2f2;
+  font-family: BryantMedium;
+  font-size: 18px;
+}
+
+.navbar__header {
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__header>a.navbar__brand {
+  font-size: 25px;
+  color: #f2f2f2;
+}
+
+.navbar__brand img {
+  height: 60px;
+}
+
+/*  */
+
+/* 
+.navbar .navbar__nav>li:last-child {
+  padding-top: 2.5rem;
+} */
+
+/* Header  */
+
+.header__main {
+  /* padding: 6rem; */
+  background-image: url("../img/ridehome.jpg"), linear-gradient( 0deg, 
+  rgba(0, 0, 0, 0.3), 
+  rgba(0, 0, 0, 0.3));
+  background-position: right 0 top 0;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.header {
+  padding: 100px 0;
+}
+
+.header__title,
+.header__content {
+  color: #ffffff;
+  padding: 0 16px;
+  text-align: center;
+  text-transform: inherit;
+}
+
+.header__title {
+  font-family: BryantBoldAlt;
+  font-size: 60px;
+  line-height: 62px;
+}
+
+.header__content {
+  font-family: BryantMedium;
+  font-size: 19px;
+  line-height: 31px;
+  margin: 0 0 24px 0;
+  letter-spacing: 3px;
+}
+
+.header__action {
+  text-align: center;
+  font-size: 13px;
+}
+
+/* How it works */
+
+.how__title,
+.CreateAccount__title {
+  font-family: BryantBoldAlt;
+  font-style: regular;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.how-it-works,
+.CreateAccount {
+  padding: 100px 0;
+  background-color: rgba(235, 216, 235, 0.3);
+}
+
+.how__headline,
+.CreateAccount__headline {
+  font-family: BryantBoldAlt;
+  font-size: 18px;
+  line-height: 25px;
+  color: #9b9b9b;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.how__content {
+  display: flex;
+  width: 880px;
+}
+
+/* reusable selectors */
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid{
+  padding-right: 9rem;
+  padding-left: 9rem;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.card__header,
+.card {
+  -webkit-box-shadow: 0px 4px 20px 0px rgba(196, 196, 196, 0.5);
+  -moz-box-shadow: 0px 4px 20px 0px rgba(196, 196, 196, 0.5);
+  box-shadow: 0px 4px 20px 0px rgba(196, 196, 196, 0.5);
+}
+
+.card {
+  width: 264px;
+  background-color: #ffffff;
+  margin-right: 15px;
+}
+
+.card__header {
+  height: 132px;
+  background-color: #357dc5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.card__content {
+  padding: 19px;
+  /* background-color: #ffffff; */
+}
+
+.card--content__title {
+  font-size: 18px;
+  line-height: 21px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.card--content__body {
+  font-size: 14px;
+  text-align: center;
+  color: #9b9b9b;
+  padding-bottom: 42px;
+}
+
+/* INFO */
+
+.info {
+  padding: 85px 138px;
+  text-align: center;
+}
+
+.info__title {
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.info__content {
+  font-size: 20px;
+  line-height: 39px;
+  margin: 32px 0;
+  color: #ffffff;
+}
+
+.info__content p {
+  font-family: BryantMedium;
+  margin-bottom: 10px;
+}
+
+/* Highlights on the benefits */
+
+/* why us section */
+
+.benefits {
+  padding: 120px 70px 0 70px;
+}
+
+.benefits__title {
+  font-family: BryantBoldAlt;
+  font-style: regular;
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 15px;
+}
+
+.thumbnail {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.caption__title {
+  font-family: BryantBoldAlt;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 24px 0 16px 0;
+}
+
+.caption__text {
+  font-family: BryantMedium;
+  font-size: 16px;
+  line-height: 23px;
+  width: 296px;
+  margin: 0 auto;
+  color: #9b9b9b;
+}
+
+.contact {
+  padding: 60px 0 0 0;
+  /* height: 82rem; */
+}
+
+.contact__form,
+.CreateAccount__form {
+  padding: 0 188px;
+}
+
+.contact__headline,
+.contact__title {
+  text-align: center;
+}
+
+.contact__headline {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.contact__title {
+  font-size: 28px;
+  line-height: 33px;
+  padding: 16px 0 50px 0;
+}
+
+.contact__form>form,
+.CreateAccount__form>form {
+  width: 70%;
+}
+
+.input--group {
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  display: flex;
+}
+
+.form--control {
+  font-size: 14px;
+  width: 100%;
+  line-height: 16px;
+  border-radius: 0%;
+  background: transparent;
+  z-index: 10;
+  border: none;
+  border-right: 1px solid;
+}
+
+.text__area {
+  margin: 16px 0 24px 0;
+}
+
+.text__area textarea {
+  height: 142px;
+  border: none;
+}
+
+.form--control,
+textarea.form-control {
+  color: rgba(64, 18, 117, 0.5);
+  outline: none;
+  padding: 14px 0 14px 38px;
+  width: 100%;
+}
+
+.form--control::placeholder,
+textarea::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(64, 18, 117, 0.5);
+  /* opacity: 1; */
+  /* Firefox */
+}
+
+.form--control::placeholder,
+textarea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgba(64, 18, 117, 0.5);
+}
+
+.form--control::placeholder,
+textarea::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(64, 18, 117, 0.5);
+}
+
+.button.focus,
+.button:focus,
+.button:hover {
+  color: #fff;
+  background-color: #401779;
+  border-color: #401779;
+}
+
+.bounce {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+}
+
+footer h5 {
+  margin-top: 15px;
+}
+
+/* javascript selectors */
+
+.js__navbar__toggler {
+  display: none;
+}
+
+.CreateAccount {
+  padding: 50px 0;
+}
+
+.logo--wrapper {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  border: none;
+  align-items: center;
+}
+
+.logo--wrapper img {
+  height: 60px;
+}
+
+.CreateAccount__form>form .input--group {
+  margin-bottom: 20px;
+}
+
+form .input--group>input:nth-child(even) {
+  border-right: none;
+}
+
+.ExistingUser {
+  display: flex;
+}
+
+.CreateAccountFooter {
+  padding: 25.5px 0;
+}
+
+.dashboard--bg--grey {
+  background-color: #f5f7fa;
+}
+
+.dashboard--logo--wrapper {
+  height: 60px;
+  width: 60px;
+   /*background-color: #394493; */
+  display: flex;
+  border: none;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.dashboard__header {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-shadow: 0 1px 15px 1px rgba(113, 106, 202, 0.5);
+  -moz-box-shadow: 0 1px 15px 1px rgba(113, 106, 202, 0.5);
+  box-shadow: 0 1px 15px 1px rgba(113, 106, 202, 0.5);
+}
+
+.dashboard__navbar__header {
+  width: 20%;
+}
+
+.dashboard__header__bottom ul li,
+.dashboard__header a,
+.dashboard__collapse ul li {
+  margin: 0;
+}
+
+.dashboard__collapse {
+  width: 80%;
+}
+
+.dashboard__collapse ul li:first-child {
+  margin: 0 0 0 auto;
+}
+
+.notification {
+  position: relative;
+}
+
+.notify {
+  background-color: #f4516c;
+  color: #fff;
+  left: 50%;
+  margin-left: -2px;
+  position: absolute;
+  z-index: 2;
+  top: -30%;
+}
+
+.notify--dot--small {
+  padding: 0;
+  line-height: 4px;
+  min-height: 4px;
+  min-width: 4px;
+  height: 4px;
+  width: 4px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.dashboard__header__bottom ul {
+  padding: 0;
+}
+
+.dashboard__header__bottom ul li:first-child {
+  padding: 20px 20px 20px 0;
+}
+
+.dashboard__header__bottom ul li {
+  padding: 20px 20px;
+}
+
+.dashboard__header__bottom ul li a {
+  color: #fff;
+}
+
+/*  */
+
+.active--indicator {
+  display: none;
+}
+
+.active>.active--indicator {
+  display: block;
+}
+
+.subheader {
+  margin-top: 40px;
+  display: flex;
+}
+
+.subheader>h3 {
+  padding: 7px 25px 7px 0;
+  border-right: 1px solid grey;
+  margin: 0;
+}
+
+.subheader>ul {
+  margin: 0;
+  width: 180px;
+  padding: 0 10px;
+}
+
+.subheader>ul>li {
+  margin: 0;
+  padding-top: 7px;
+}
+
+.subheader>ul>li>a {
+  font-family: BryantRegular;
+  font-size: 14px;
+  padding: 7px;
+}
+
+.metric {
+  display: flex;
+  height: 192px;
+  align-items: center;
+  align-content: center;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.metric,
+.metric>.row>.divider--half {
+  padding: 0 15px;
+}
+
+.dashboard__content {
+  padding: 30px 0;
+}
+
+.card__user {
+  width: 100%;
+  text-align: center;
+}
+
+.card__user__pics {
+  height: 84px;
+  width: 84px;
+  border: 2px solid #6b459e;
+  border-radius: 50%;
+}
+
+.card__user__widget {
+  margin: 0;
+  text-align: center;
+}
+
+.CreateRide {
+  margin: 0;
+  text-align: center;
+}
+
+.DashboardColor--bg--primary {
+  background-color: #149b6e;
+  color: #ffffff;
+}
+
+.DashboardColor--text--primary {
+  color: #5b8e7d;
+}
+
+.DashboardColor--text--grey {
+  color: #575962;
+}
+
+.RideInfo {
+  display: flex;
+}
+
+.RideHistory,
+.RideOffers {
+  padding: 20px 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.RideOffers__content,
+.RideHistory__content {
+  background-color: #ffffff;
+  padding: 30px 20px;
+}
+
+.RideOffers {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.RideHistory {
+  width: 70%;
+}
+
+.RideOffers__title,
+.RideHistory__title {
+  padding: 0 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f5f7fa;
+  background-color: #ffffff;
+}
+
+.RideOffers__item {
+  display: flex;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #f5f7fa;
+  padding-bottom: 10px;
+}
+
+.RideOffers__item:last-child {
+  border-bottom: none;
+}
+
+.rider__img img {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.RideOffer__footer a {
+  font-size: 14px;
+}
+
+.RideHistory__content .row {
+  background-color: #ebedf2;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.ride__destination {
+  margin: auto;
+}
+
+.RideDetails {
+  width: 512px;
+  padding: 40px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.RideInfo__header {
+  width: 100%;
+}
+
+.RideInfo__header__img img {
+  height: 80px;
+  border-radius: 50%;
+}
+
+.RideForm {
+  display: flex;
+}
+
+.js__navbar__toggler.DashboardColor--primary {
+  color: #6b459e;
+  width: 50%;
+  margin: 0;
+}
+
+span.js__navbar__toggler {
+  font-size: 30px;
+  cursor: pointer
+}
+
+.input--group.dashboard--input:first-child {
+  margin-bottom: 10px;
+}
+
+.input--group.dashboard--input {
+  border-radius: 10px;
+  background-color: #f7f6f9;
+}
+
+.input--group.dashboard--input input {
+  padding-left: 20px;
+}

@@ -1,1 +1,1 @@
-# RideMyWay
+# RideMyWay forLoopTanzania app
